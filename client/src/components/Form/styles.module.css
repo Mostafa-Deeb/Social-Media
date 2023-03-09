@@ -1,0 +1,23 @@
+/* root {
+    "& .MuiTextField-root" {
+      margin: 5;
+    },
+  } */
+.paper {
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.form {
+  display: "flex";
+  justify-content: "center";
+  flex-wrap: "wrap";
+  grid-area: 5;
+}
+.fileInput {
+  width: "100%";
+  margin: "10px 0";
+}
+.buttonSubmit {
+  margin-bottom: 10;
+}

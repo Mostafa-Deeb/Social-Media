@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+.section {
+  display: flex;
+  border-radius: 20px;
+  margin: 10px;
+  /* flex: 1; */
+  flex-direction: column;
+}
+.image {
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  max-height: 600px;
+}
+.imageSection {
+  margin-left: 20px;
+}
+.recommandedPosts {
+  display: flex;
+  word-break: break-all;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.commentSection {
+  display: flex;
+  flex-direction: column;
+}
+.comment {
+  display: flex;
+}
+@media only screen and (max-width: 1000px) {
+  .card {
+    flex-direction: column;
+  }
+}
